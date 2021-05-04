@@ -1,0 +1,33 @@
+.redBackground{
+    background-color: red;
+}
+.greenBackground{
+    background-color: green;
+}
+.blueBackground{
+    background-color: blue;
+}
+.pinkBackground{
+    background-color: pink;
+}
+.purpleBackground{
+    background-color: purple;
+}
+.yellowBackground{
+    background-color: yellow;
+}
+.whiteBackground{
+    background-color: white;
+}
+.blackBackground{
+    background-color: black;
+}
+.alignmentClass{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#colorPicker{
+    display: flex;
+    justify-content: center;
+}
