@@ -7,9 +7,22 @@
     <title>Etching</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="body">
     <div>
-        <h1 id="colorPicker">Type color Here</h1>
+        <h1 id="colorPicker">Pick color Here</h1>
+        <div id="chooseColorDiv">
+            <button class="colorButton" id="redColorButton">Red</button>
+            <button class="colorButton" id="greenColorButton">Green</button>
+            <button class="colorButton" id="blueColorButton">Blue</button>
+            <button class="colorButton" id="yellowColorButton">Yellow</button>
+            <button class="colorButton" id="pinkColorButton">Pink</button>
+            <button class="colorButton" id="purpleColorButton">Purple</button>
+            <button class="colorButton" id="whiteColorButton">White</button>
+            <button class="colorButton" id="blackColorButton">Black</button>
+        </div>
+        <div id="colorMessageHTML">
+            <p>Coloring is<div id="colorOnText"></div></p>
+        </div>
     </div>
     <div id="grid-container"></div>
     <script src="script.js"></script>
